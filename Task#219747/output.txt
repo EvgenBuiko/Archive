@@ -1,0 +1,18 @@
+student name: john
+grade is: F
+sample file output starts next: 
+project1 marks: 1
+project2 marks: 1
+project3 marks: 1
+the best of project marks is: 1
+exam1 marks: 1
+exam2 marks: 1
+the weighted mean of exam marks is: 1
+lab1 marks: 1
+lab2 marks: 1
+lab3 marks: 1
+lab4 marks: 1
+lab5 marks: 1
+the average of lab marks is: 1
+total marks obtained is: 1
+comments: Failed
