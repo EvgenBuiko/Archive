@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Objects">
+      <UniqueIdentifier>{0a9f5e61-4d62-4e7d-8fea-3dd0ff510f25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Objects">
+      <UniqueIdentifier>{89b3a0cb-ed94-402b-92ab-09aa0a030936}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Tools">
+      <UniqueIdentifier>{76dfa749-31da-48fe-a657-61bde107f9d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Tools">
+      <UniqueIdentifier>{8ac629ad-af62-40e2-9e31-9efd074fb085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\MFC">
+      <UniqueIdentifier>{fabed6ad-7b4a-4540-8bde-61d6304d423b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\MFC">
+      <UniqueIdentifier>{2cdcfa87-8bb5-40f2-b1ba-3e08990b6d47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\EventListener">
+      <UniqueIdentifier>{9182c9bb-7f70-42e1-b2ae-b814f245fd6c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="PEllipse.h">
+      <Filter>Файлы заголовков\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="PRectangle.h">
+      <Filter>Файлы заголовков\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="PObject.h">
+      <Filter>Файлы заголовков\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="PTriangle.h">
+      <Filter>Файлы заголовков\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="PLine.h">
+      <Filter>Файлы заголовков\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Файлы заголовков\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectDoc.h">
+      <Filter>Файлы заголовков\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Project.h">
+      <Filter>Файлы заголовков\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectView.h">
+      <Filter>Файлы заголовков\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="PConnecter.h">
+      <Filter>Файлы заголовков\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="PToolComponent.h">
+      <Filter>Файлы заголовков\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="PMover.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Файлы заголовков\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="IEventHandler.h">
+      <Filter>Файлы заголовков\EventListener</Filter>
+    </ClInclude>
+    <ClInclude Include="MethodEventHandler.h">
+      <Filter>Файлы заголовков\EventListener</Filter>
+    </ClInclude>
+    <ClInclude Include="PEvent.h">
+      <Filter>Файлы заголовков\EventListener</Filter>
+    </ClInclude>
+    <ClInclude Include="PObjStream.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="PEllipse.cpp">
+      <Filter>Исходные файлы\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="PObject.cpp">
+      <Filter>Исходные файлы\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="PRectangle.cpp">
+      <Filter>Исходные файлы\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="PTriangle.cpp">
+      <Filter>Исходные файлы\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="PLine.cpp">
+      <Filter>Исходные файлы\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Исходные файлы\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Project.cpp">
+      <Filter>Исходные файлы\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectDoc.cpp">
+      <Filter>Исходные файлы\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectView.cpp">
+      <Filter>Исходные файлы\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="PToolComponent.cpp">
+      <Filter>Исходные файлы\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="PConnecter.cpp">
+      <Filter>Исходные файлы\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="PMover.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="PObjStream.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Project.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Project.rc2">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ProjectDoc.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="res\Project.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
